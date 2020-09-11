@@ -1,0 +1,25 @@
+.summaryTable {
+  margin-top: 20px;
+  overflow: scroll;
+  color: #6a5d5d;
+  background-color: white;
+  height: 400px;
+}
+
+.summaryTable table {
+  width: 100%;
+}
+
+.summaryTable tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryTable td {
+  padding: 0.5rem;
+  border: none;
+}
+
+.summaryTable tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
